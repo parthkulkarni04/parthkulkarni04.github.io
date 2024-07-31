@@ -43,7 +43,7 @@ function Hero() {
       <div className="relative w-screen">
         <motion.div
           style={isMobile ? {} : { translateY: throttleY }}
-          className="absolute inset-0 -z-10 h-full w-full [background:radial-gradient(135%_125%_at_50%_10%,#020817_40%,#1d8237_100%)] will-change-transform"
+          className="absolute inset-0 -z-10 h-full w-full [background:radial-gradient(135%_125%_at_50%_10%,#020817_40%,#796c91_100%)] will-change-transform"
         />
         <Particles className="absolute inset-0 -z-10" quantity={70} />
         <motion.div
@@ -56,23 +56,36 @@ function Hero() {
             variants={heroContainer}
             initial="hidden"
             animate="show"
-            className="h-screen w-full flex justify-center items-center flex-col gap-8"
+            className="h-screen w-full flex justify-center items-center gap-8"
           >
-            <motion.h1
+            <motion.img
+              src="./img/profile.jpg" // Update this path to your profile photo
+              alt="Profile Photo"
+              className="w-40 h-47 rounded-3xl object-cover" // Adjust size and shape as needed
               variants={heroItem}
-              className="text-hero font-semibold text-center leading-[105%]"
+            />
+            <motion.div
+              className="flex flex-col items-start"
+              variants={heroContainer}
+              initial="hidden"
+              animate="show"
             >
-              Hey There 👋 <br /> I am{" "}
-              <span className="bg-gradient-to-b from-white to-slate-700 text-transparent bg-clip-text">
-                Parth
-              </span>
-            </motion.h1>
-            <motion.p
-              variants={heroItem}
-              className="opacity-75 text-para text-center"
-            >
-              An Aspiring Deep Learning Engineer making machine Learn 🤖
-            </motion.p>
+              <motion.h1
+                variants={heroItem}
+                className="text-hero font-semibold text-left leading-[105%]"
+              >
+                Hey There 👋 <br /> I am{" "}
+                <span className="bg-gradient-to-b from-white to-slate-700 text-transparent bg-clip-text">
+                  Parth
+                </span>
+              </motion.h1>
+              <motion.p
+                variants={heroItem}
+                className="opacity-75 text-para text-left"
+              >
+                Aspiring Deep Learning Engineer 🤖
+              </motion.p>
+            </motion.div>
           </motion.div>
         </motion.div>
       </div>

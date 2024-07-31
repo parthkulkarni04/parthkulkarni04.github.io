@@ -23,13 +23,13 @@ function ResumeCard({ className }: { className?: string }) {
           maskImage: "linear-gradient(to bottom, black 50%, transparent 100%)",
         }}
       >
-        I am Parth, an aspiring Machine Learning Engineer
+        Driven by a passion for applying deep learning to real-world problems, I specialize in machine learning, computer vision and natural language processing. 
       </p>
 
-      <p className="text-xl font-semibold mb-2">Skills</p>
-      {/* <div className="space-y-1">
+      {/* <p className="text-xl font-semibold mb-2">Skills</p>
+      <div className="space-y-1">
         <p className="text-base">
-          <span className="underline">Web technologies</span>: JavaScript
+          <span className="underline">Deep Learning</span>: JavaScript
           (ES6+), React js, Next js, TypeScript, Tailwind, Node, MongoDB, HTML,
           CSS, SCSS, Express, Postgresql
         </p>

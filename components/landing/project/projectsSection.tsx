@@ -72,15 +72,15 @@ export default function Projects() {
                 />
                 <RevealBox>
                   <p className="text-para-sm opacity-80">
-                    A showcase of all my work, <br />
-                    mainly created in Next js, and javascript
+                    A showcase of all my work, And things I'm interested in<br />
+                    
                   </p>
                 </RevealBox>
                 <Button size="lg" variant="cfa" asChild>
                   <Link
                     className="mt-8 mb-10 md:mb-0 md:mt-auto w-fit"
                     href={
-                      "https://www.linkedin.com/in/Parth-trivedi-61219978"
+                      "https://www.linkedin.com/in/parthkulkarni04"
                     }
                     target="_blank"
                     rel="noopener noreferrer"
