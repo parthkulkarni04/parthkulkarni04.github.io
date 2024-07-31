@@ -4,7 +4,7 @@ export const projects = [
     name: "Tail track",
     description:
       "Track you custom events easy and quickly. Also get notifications on slack via webhook.",
-    github: "https://github.com/nishchay17/tail-track",
+    github: "https://github.com/Parth17/tail-track",
     live: "https://tail-track.vercel.app?ref=portfolio",
     tag: "Next, Tailwind, Typescript, Next auth, Redis, postgresql, Shadcn",
     image: "tail-track.png",
@@ -15,7 +15,7 @@ export const projects = [
     id: 6,
     name: "NPM counter",
     description: "Get count of any npm package quicky!",
-    github: "https://github.com/nishchay17/npmcounter",
+    github: "https://github.com/Parth17/npmcounter",
     live: "https://npmcounter.vercel.app/",
     tag: "Next, Tailwind, Typescript",
     image: "npm.png",
@@ -27,7 +27,7 @@ export const projects = [
     name: "Dev Planet Blog",
     description:
       "Collaborate with Team with team collab. Assign and monitor tasks and share files with the team.",
-    github: "https://github.com/nishchay17/planet-blog",
+    github: "https://github.com/Parth17/planet-blog",
     live: "https://planet-blog.vercel.app/",
     tag: "Next, Tailwind, Typescript, Next auth, Contentlayer, MDX",
     image: "blog.png",
@@ -39,7 +39,7 @@ export const projects = [
     name: "Team Collab",
     description:
       "Collaborate with Team with team collab. Assign and monitor tasks and share files with the team.",
-    github: "https://github.com/nishchay17/teams-frontend-v2",
+    github: "https://github.com/Parth17/teams-frontend-v2",
     live: "https://teams-frontend.vercel.app/",
     tag: "Next, Tailwind, Node, MongoDB, Express",
     image: "team-collab.png",
@@ -50,7 +50,7 @@ export const projects = [
     name: "Url Shortener",
     description:
       "Mock website for a url shortener service. Used shrtco.de's API to shorten the given URL and persisted in the local storage.",
-    github: "https://github.com/nishchay17/Shortly",
+    github: "https://github.com/Parth17/Shortly",
     live: "https://shortlytif.netlify.app/",
     tag: "React",
     image: "url.png",
@@ -61,8 +61,8 @@ export const projects = [
     name: "CDF (CLI)",
     description:
       "Generate files with boilerplate code, for competitive programmers. 1000+ Downloads on NPM.",
-    github: "https://github.com/nishchay17/dirMaker",
-    live: "https://www.npmjs.com/package/@nishchay17/cdf",
+    github: "https://github.com/Parth17/dirMaker",
+    live: "https://www.npmjs.com/package/@Parth17/cdf",
     tag: "Node, CLI",
     image: "cdn.png",
     createdOn: "2020",
@@ -72,7 +72,7 @@ export const projects = [
   //   name: "E-commerce",
   //   description:
   //     "E-commerce website for selling t-shirt complete with payment options, with a simple UI.",
-  //   github: "https://github.com/nishchay17/TeeStoreFrontend",
+  //   github: "https://github.com/Parth17/TeeStoreFrontend",
   //   live: "https://theteestore.netlify.app/",
   //   tag: "React, Node, MongoDB, Express",
   //   image: "tee.png",

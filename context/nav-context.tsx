@@ -10,7 +10,7 @@ type NavContext = {
   handleCurrentNav: (item: (typeof NAV_ITEMS)[number]) => void;
 };
 
-const NAV_ITEMS = ["Home", "Projects", "Skills", "Resume", "Contact"] as const;
+const NAV_ITEMS = ["Home", "Projects", "Skills", "Experience", "Contact"] as const;
 
 const navContext = createContext<NavContext | null>(null);
 

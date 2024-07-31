@@ -98,16 +98,16 @@ function Footer() {
           />
           <div>
             <p className="opacity-60">Email at: </p>
-            <Link href="mailto:nishchay13971@gmail.com">
+            <Link href="mailto:parthpsk0517@gmail.com">
               <p className="text-para-sm opacity-60 cursor-pointer">
-                nishchay13971@gmail.com
+                parthpsk0517@gmail.com 
               </p>
             </Link>
           </div>
           <div className="flex gap-4">
             <Link
-              className="border border-indigo-800 hover:bg-indigo-700 transition-colors p-3 rounded-full"
-              href="https://github.com/nishchay17"
+              className="border border-rose-800 hover:bg-rose-700 transition-colors p-3 rounded-full"
+              href="https://github.com/parthkulkarni04"
               aria-label="Github"
               target="_blank"
               rel="noopener noreferrer"
@@ -115,8 +115,8 @@ function Footer() {
               <Image src={github} alt="Github" />
             </Link>
             <Link
-              className="border border-indigo-800 hover:bg-indigo-700 transition-colors p-3 rounded-full"
-              href="https://www.linkedin.com/in/nishchay-trivedi-61219978"
+              className="border border-rose-800 hover:bg-rose-700 transition-colors p-3 rounded-full"
+              href="https://www.linkedin.com/in/parthkulkarni04"
               aria-label="Linkedin"
               target="_blank"
               rel="noopener noreferrer"
@@ -124,8 +124,8 @@ function Footer() {
               <Image src={linkedin} alt="Linkedin" />
             </Link>
             <Link
-              className="border border-indigo-800 hover:bg-indigo-700 transition-colors p-3 rounded-full"
-              href="https://twitter.com/Nishchay17_"
+              className="border border-rose-800 hover:bg-rose-700 transition-colors p-3 rounded-full"
+              href="https://x.com/KulkarniParth17"
               aria-label="Twitter"
               target="_blank"
               rel="noopener noreferrer"
@@ -133,8 +133,8 @@ function Footer() {
               <Image src={twitter} alt="Twitter" />
             </Link>
             <Link
-              className="border border-indigo-800 hover:bg-indigo-700 transition-colors p-3 rounded-full"
-              href="https://www.instagram.com/nishchay17"
+              className="border border-rose-800 hover:bg-rose-700 transition-colors p-3 rounded-full"
+              href="https://www.instagram.com/Parth17"
               aria-label="Instagram"
               target="_blank"
               rel="noopener noreferrer"
@@ -155,7 +155,7 @@ function Footer() {
                   ?.scrollIntoView({ behavior: "smooth" })
               }
             >
-              <h3 className="relative w-fit text-para transition-colors group-hover:text-yellow-400 mb-2 after:bg-yellow-400 after:absolute after:h-[2px] after:w-0 after:bottom-0 after:left-0 group-hover:after:w-full after:transition-all after:duration-500 duration-500">
+              <h3 className="relative w-fit text-para transition-colors group-hover:text-teal-400 mb-2 after:bg-teal-400 after:absolute after:h-[2px] after:w-0 after:bottom-0 after:left-0 group-hover:after:w-full after:transition-all after:duration-500 duration-500">
                 {it.name}
               </h3>
               <p className="text-para-sm text-gray-400 group-hover:text-gray-300 transition-colors">
@@ -177,34 +177,16 @@ function Footer() {
         }}
       >
         <div className="min-h-56 grid place-content-center">
-          <p className="text-yellow-400 text-para-sm">
-            Created by{" "}
+          <p className="text-slate-500 text-para-sm">
+            Made with ❤️ by{" "}
             <Link
               className="hover:underline underline-offset-2"
-              href={"https://github.com/nishchay17"}
+              href={"https://github.com/parthkulkarni04"}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Nishchay Trivedi
+              Parth Kulkarni
             </Link>{" "}
-            using{" "}
-            <Link
-              className="hover:underline underline-offset-2"
-              href={"https://nextjs.org"}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Next js
-            </Link>{" "}
-            and{" "}
-            <Link
-              className="hover:underline underline-offset-2"
-              href={"https://www.framer.com/motion"}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Framer motion
-            </Link>
           </p>
         </div>
       </motion.div>

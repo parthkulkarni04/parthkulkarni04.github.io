@@ -10,26 +10,26 @@ const mulish = Mulish({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Nishchay",
-    default: "Nishchay",
+    template: "%s | Parth Kulkarni",
+    default: "Parth",
   },
-  description: "Portfolio made with Next JS | Nishchay17",
-  icons: ["/svg/logo-new.svg"],
-  keywords: ["Next.js", "React", "Portfolio", "Nishchay", "Nishchay17"],
+  description: "My Personal Portfolio | parthkulkarni04",
+  icons: ["/svg/logo.svg"],
+  keywords: ["Next.js", "React", "Portfolio", "Parth Kulkarni", "parthkulkarni04"],
   authors: [
     {
-      name: "nishchay17",
+      name: "parthkulkarni04",
     },
   ],
-  creator: "nishchay17",
-  metadataBase: new URL("https://www.nishchay17.com"),
+  creator: "parthkulkarni04",
+  metadataBase: new URL("https://parthkulkarni04.vercel.app/"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.nishchay17.com",
-    title: "Nishchay17",
-    description: "Portfolio made with Next JS | Nishchay17",
-    siteName: "Nishchay17",
+    url: "https://parthkulkarni04.vercel.app/",
+    title: "Parth Kulkarni",
+    description: "My Personal Portfolio | parthkulkarni04",
+    siteName: "Parth Kulkarni Portfolio",
   },
 };
 

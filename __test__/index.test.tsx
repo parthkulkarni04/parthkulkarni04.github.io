@@ -26,7 +26,7 @@ describe("Home Page tests", () => {
   it("renders the hero heading", () => {
     render(<Hero />);
     const heading = screen.getByRole("heading", {
-      name: /Hello there I am Nishchay/i,
+      name: /Hello there I am Parth/i,
     });
     expect(heading).toBeInTheDocument();
   });

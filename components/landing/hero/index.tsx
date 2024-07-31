@@ -43,7 +43,7 @@ function Hero() {
       <div className="relative w-screen">
         <motion.div
           style={isMobile ? {} : { translateY: throttleY }}
-          className="absolute inset-0 -z-10 h-full w-full [background:radial-gradient(135%_125%_at_50%_10%,#020817_40%,#63e_100%)] will-change-transform"
+          className="absolute inset-0 -z-10 h-full w-full [background:radial-gradient(135%_125%_at_50%_10%,#020817_40%,#1d8237_100%)] will-change-transform"
         />
         <Particles className="absolute inset-0 -z-10" quantity={70} />
         <motion.div
@@ -62,16 +62,16 @@ function Hero() {
               variants={heroItem}
               className="text-hero font-semibold text-center leading-[105%]"
             >
-              Hello there <br /> I am{" "}
-              <span className="bg-gradient-to-b from-white to-slate-300 text-transparent bg-clip-text">
-                Nishchay
+              Hey There 👋 <br /> I am{" "}
+              <span className="bg-gradient-to-b from-white to-slate-700 text-transparent bg-clip-text">
+                Parth
               </span>
             </motion.h1>
             <motion.p
               variants={heroItem}
               className="opacity-75 text-para text-center"
             >
-              A full stack developer, designing and developing web.
+              An Aspiring Deep Learning Engineer making machine Learn 🤖
             </motion.p>
           </motion.div>
         </motion.div>

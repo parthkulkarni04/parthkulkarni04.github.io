@@ -23,7 +23,7 @@ exports[`snapshot test for the home page renders hero section unchanged 1`] = `
             >
               Hello there 
               <br />
-               I am Nishchay
+               I am Parth
             </h2>
           </div>
           <p
@@ -81,7 +81,7 @@ exports[`snapshot test for the home page renders hero section unchanged 1`] = `
               </button>
             </a>
             <a
-              href="mailto:nishchay13971@gmail.com"
+              href="mailto:Parth13971@gmail.com"
             >
               <button
                 class="chakra-button css-1u3yts"
@@ -144,7 +144,7 @@ exports[`snapshot test for the home page renders social section unchanged 1`] = 
         >
           <a
             aria-label="github"
-            href="https://github.com/nishchay17"
+            href="https://github.com/Parth17"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -166,7 +166,7 @@ exports[`snapshot test for the home page renders social section unchanged 1`] = 
           </a>
           <a
             aria-label="instagram"
-            href="https://www.instagram.com/nishchay17"
+            href="https://www.instagram.com/Parth17"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -202,7 +202,7 @@ exports[`snapshot test for the home page renders social section unchanged 1`] = 
           </a>
           <a
             aria-label="linkedin"
-            href="https://www.linkedin.com/in/nishchay-trivedi-61219978"
+            href="https://www.linkedin.com/in/Parth-trivedi-61219978"
             rel="noopener noreferrer"
             target="_blank"
           >

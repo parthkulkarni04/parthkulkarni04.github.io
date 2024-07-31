@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" xmlns:v="https://vecta.io/nano"><g clip-path="url(#C)"><rect width="20" height="20" rx="10" fill="#fff"/><rect y="-1" width="20" height="21.053" rx="10" fill="url(#A)"/><path d="M5.8 6.805a1.7 1.7 0 0 1 1.7-1.7h0v8.947H5.8V6.805z" fill="#f3f3f3"/><path d="M16 14.053a9.36 9.36 0 0 0-.647-3.424c-.427-1.086-1.053-2.072-1.843-2.903s-1.726-1.49-2.758-1.94-2.137-.681-3.253-.681v1.735c.9 0 1.791.187 2.622.549a6.84 6.84 0 0 1 2.223 1.563 7.25 7.25 0 0 1 1.485 2.34c.344.875.521 1.813.521 2.76H16z" fill="url(#B)"/></g><defs><linearGradient id="A" x1="3.2" y1=".895" x2="17.857" y2="17.947" gradientUnits="userSpaceOnUse"><stop offset=".611" stop-color="#181818"/><stop offset=".886" stop-color="#313131"/></linearGradient><linearGradient id="B" x1="7.5" y1="6" x2="15.627" y2="13.636" gradientUnits="userSpaceOnUse"><stop stop-color="#c2c2c2"/><stop offset=".666" stop-color="#f3f3f3"/></linearGradient><clipPath id="C"><rect width="20" height="20" rx="10" fill="#fff"/></clipPath></defs></svg>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="16.000000pt" height="16.000000pt" viewBox="0 0 16.000000 16.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,16.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M4 147 c-3 -8 -4 -43 -2 -78 l3 -64 75 0 75 0 0 75 0 75 -73 3 c-55
+2 -74 -1 -78 -11z m106 -32 c16 -19 -3 -45 -31 -45 -12 0 -19 -7 -19 -20 0
+-11 -4 -20 -10 -20 -5 0 -10 23 -10 50 0 48 1 50 29 50 16 0 34 -7 41 -15z"/>
+<path d="M60 100 c0 -13 7 -20 20 -20 13 0 20 7 20 20 0 13 -7 20 -20 20 -13
+0 -20 -7 -20 -20z"/>
+</g>
+</svg>

@@ -11,10 +11,10 @@ function ResumeCard({ className }: { className?: string }) {
       )}
     >
       <div className="absolute inset-0 z-[-2] bg-slate-100 bg-[radial-gradient(100%_100%_at_20%_0%,rgba(0,163,255,0.13)_0,rgba(0,163,255,0)_50%,rgba(0,163,255,0)_100%)]" />
-      <h2 className="text-3xl font-semibold">Nishchay Trivedi</h2>
-      <p className="font-medium mb-4 text-slate-600">Software Engineer</p>
-      <Link href={"mailto:nishchay13971@gmail.com"}>
-        <p className="underline underline-offset-2">nishchay13971@gmail.com</p>
+      <h2 className="text-3xl font-semibold">Parth Kulkarni</h2>
+      <p className="font-medium mb-4 text-slate-600">Aspiring Deep Learning Engineer</p>
+      <Link href={"mailto:parthpsk0517@gmail.com"}>
+        <p className="underline underline-offset-2">parthpsk0517@gmail.com</p>
       </Link>
       <p className="mb-4">Pune, India</p>
       <p
@@ -23,13 +23,11 @@ function ResumeCard({ className }: { className?: string }) {
           maskImage: "linear-gradient(to bottom, black 50%, transparent 100%)",
         }}
       >
-        I am Nishchay, a software engineer over 2 years of experience in
-        creating user friendly web applications using React/Next js. Having keen
-        interest in web development & learning new technologies.
+        I am Parth, an aspiring Machine Learning Engineer
       </p>
 
       <p className="text-xl font-semibold mb-2">Skills</p>
-      <div className="space-y-1">
+      {/* <div className="space-y-1">
         <p className="text-base">
           <span className="underline">Web technologies</span>: JavaScript
           (ES6+), React js, Next js, TypeScript, Tailwind, Node, MongoDB, HTML,
@@ -43,7 +41,7 @@ function ResumeCard({ className }: { className?: string }) {
           <span className="underline">Tools</span>: Git, Github, Jenkins
           (CI/CD), Jira
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

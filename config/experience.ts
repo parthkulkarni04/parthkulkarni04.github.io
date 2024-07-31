@@ -1,8 +1,8 @@
 export const experience = [
   {
-    company: "Homelane",
-    title: "Software Engineer Intern",
-    date: "Jan 2022 - Present",
+    company: "CodeWits Pvt. Ltd.",
+    title: "Industry Project",
+    date: "Feb 2024 - Present",
     points: [
       "Worked on developing dashboard using React js and SCSS",
       "Migrated vanilla javascript code to React js code",

@@ -39,10 +39,10 @@ function Navbar() {
         <div className="flex justify-between items-center container max-w-[1400px] py-4">
           <div className="flex gap-3 items-center">
             <Image src="/svg/logo.svg" alt="logo" width={14} height={14} />
-            <h2 className="tracking-wider text-sm">Nishchay</h2>
+            <h2 className="tracking-wider text-sm">Parth Kulkarni</h2>
           </div>
           <Link
-            href={"https://www.linkedin.com/in/nishchay-trivedi-61219978"}
+            href={"https://www.linkedin.com/in/parthkulkarni04"}
             target="_blank"
             rel="noopener noreferrer"
             prefetch={false}

@@ -80,7 +80,7 @@ export default function Projects() {
                   <Link
                     className="mt-8 mb-10 md:mb-0 md:mt-auto w-fit"
                     href={
-                      "https://www.linkedin.com/in/nishchay-trivedi-61219978"
+                      "https://www.linkedin.com/in/Parth-trivedi-61219978"
                     }
                     target="_blank"
                     rel="noopener noreferrer"

@@ -8,8 +8,8 @@ export default function CustomCursor() {
   useEffect(() => {
     function handlePointer(event: any) {
       setMousePosition({
-        x: event.clientX - 6,
-        y: event.clientY - 6,
+        x: event.clientX - 1,
+        y: event.clientY - 1,
       });
     }
 
@@ -25,10 +25,10 @@ export default function CustomCursor() {
       animate={{
         ...mousePosition,
       }}
-      transition={{ type: "tween", duration: 0.1, ease: "linear" }}
+      transition={{ type: "tween", duration: 0, ease: "linear" }}
       className={
         "fixed z-50 top-0 left-0 rounded-full pointer-events-none select-none" +
-        " mix-blend-difference size-3 bg-yellow-400 hidden md:block print:hidden"
+        " mix-blend-difference size-3 bg-red-400 hidden md:block print:hidden"
       }
     />
   );

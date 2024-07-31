@@ -1,28 +1,28 @@
 const TECH = [
   {
-    id: "basic",
-    name: "Web basics",
-    techs: ["Javascript", "Next js", "React js", "Typescript"],
+    id: "Web Development",
+    name: "Web Development",
+    techs: ["JavaScript", "TypeScript", "React.js", "Next.js", "Node.js", "Django", "Flask", "Tailwind", "Framer Motion"],
   },
   {
-    id: "ui",
-    name: "UI and animation",
-    techs: ["Tailwind", "Framer motion", "Shadcn"],
+    id: "DeepLearning",
+    name: "Deep Learning Frameworks",
+    techs: ["TensorFlow", "PyTorch", "Keras"],
   },
   {
-    id: "lib",
-    name: "Addtional Libraries",
-    techs: ["Zod", "React query", "Next auth", "Drizzle"],
+    id: "MLOps",
+    name: "MLOps Tools",
+    techs: ["Docker", "Kubernetes", "MLflow", "TensorFlow Extended (TFX)"],
   },
   {
-    id: "db",
-    name: "Database",
-    techs: ["Postgresql", "MongoDB", "Redis"],
+    id: "GenAI",
+    name: "GenAI",
+    techs: ["Computer Vision", "Generative Adversarial Networks (GANs)", "Speech Synthesis", "Large Language Models (LLMs)", "Fine-tuning (qLoRA)"],
   },
   {
-    id: "backend",
-    name: "Backend",
-    techs: ["Node js", "Express", "Spring boot"],
+    id: "Databases",
+    name: "Databases and Techniques",
+    techs: ["MongoDB", "Redis", "PostgreSQL", "Retrieval-Augmented Generation (RAG)"],
   },
 ] as const;
 export default TECH;
