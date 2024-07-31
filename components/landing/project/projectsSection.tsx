@@ -73,7 +73,7 @@ export default function Projects() {
                 <RevealBox>
                   <p className="text-para-sm opacity-80">
                     A showcase of all my work, <br />
-                    And things I'm current work on
+                    and things I'm working on
                   </p>
                 </RevealBox>
                 <Button size="lg" variant="cfa" asChild>
