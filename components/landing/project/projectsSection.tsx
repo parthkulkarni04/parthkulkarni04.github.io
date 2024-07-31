@@ -73,14 +73,14 @@ export default function Projects() {
                 <RevealBox>
                   <p className="text-para-sm opacity-80">
                     A showcase of all my work, <br />
-                    and things I'm working on
+                    mainly created in Next js, and javascript
                   </p>
                 </RevealBox>
                 <Button size="lg" variant="cfa" asChild>
                   <Link
                     className="mt-8 mb-10 md:mb-0 md:mt-auto w-fit"
                     href={
-                      "https://www.linkedin.com/in/parthkulkarni04"
+                      "https://www.linkedin.com/in/nishchay-trivedi-61219978"
                     }
                     target="_blank"
                     rel="noopener noreferrer"
