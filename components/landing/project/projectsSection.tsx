@@ -72,8 +72,8 @@ export default function Projects() {
                 />
                 <RevealBox>
                   <p className="text-para-sm opacity-80">
-                    A showcase of all my work, And things I'm interested in<br />
-                    
+                    A showcase of all my work, <br />
+                    And things I'm interested
                   </p>
                 </RevealBox>
                 <Button size="lg" variant="cfa" asChild>
