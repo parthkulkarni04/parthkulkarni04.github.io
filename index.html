@@ -3,55 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="5; url=https://parthkulkarni04.vercel.app">
-    <title>Redirecting...</title>
+    <title>Portfolio - Under Maintenance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #ff7e5f, #feb47b);
-            color: #fff;
-            text-align: center;
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
         }
-
-        .container {
-            max-width: 600px;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 1.2em;
-        }
-
-        a {
-            color: #ffccbc;
-            text-decoration: none;
-            border-bottom: 2px solid #ffccbc;
-            padding-bottom: 2px;
-        }
-
-        a:hover {
-            border-bottom: none;
+        .animate-pulse-slow {
+            animation: pulse 2s infinite;
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Redirecting...</h1>
-        <p>You will be redirected to the new site in a few seconds.</p>
-        <p>If you are not redirected automatically, follow this <a href="https://parthkulkarni04.vercel.app">link to the new site</a>.</p>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="text-center p-8 max-w-lg mx-auto">
+        <div class="animate-pulse-slow mb-8">
+            <!-- Pulsing Circle Icon -->
+            <svg class="w-24 h-24 mx-auto text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"/>
+            </svg>
+        </div>
+        
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Under Maintenance    🚧</h1>
+        
+        <p class="text-lg text-gray-600 mb-8">
+            I'm currently updating my portfolio with exciting new projects and improvements. 
+            Please check back soon!
+        </p>
+        
+        <div class="space-y-4">
+            <p class="text-gray-500" id="countdown"></p>
+            
+            <div class="flex justify-center space-x-4">
+                <a href="mailto:parthskulkarni04@gmail.com" class="inline-flex items-center px-4 py-2 bg-green-800 text-white rounded-lg hover:bg-green-1000 transition-colors">
+                    Contact Me
+                </a>
+                <a href="https://github.com/parthkulkarni04" target="_blank" class="inline-flex items-center px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors">
+                    View GitHub
+                </a>
+            </div>
+        </div>
     </div>
+
+    <script>
+        // Set the date we're counting down to (2 weeks from now)
+        const countDownDate = new Date();
+        countDownDate.setDate(countDownDate.getDate() + 3);
+
+        // Update the countdown every 1 second
+        const countdownTimer = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML = 
+                `Expected return in: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+            if (distance < 0) {
+                clearInterval(countdownTimer);
+                document.getElementById("countdown").innerHTML = "Website update coming very soon!";
+            }
+        }, 1000);
+    </script>
 </body>
 </html>
